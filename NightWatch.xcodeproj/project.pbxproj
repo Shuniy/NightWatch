@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C328BD712796AA9500BF00E4 /* NightWatchTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328BD702796AA9500BF00E4 /* NightWatchTasks.swift */; };
+		C33A221727953E7600BAD617 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A221627953E7600BAD617 /* Task.swift */; };
+		C3C6C0EB2792A18F00E57C59 /* NightWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C6C0EA2792A18F00E57C59 /* NightWatchApp.swift */; };
+		C3C6C0ED2792A18F00E57C59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C6C0EC2792A18F00E57C59 /* ContentView.swift */; };
+		C3C6C0EF2792A19100E57C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C6C0EE2792A19100E57C59 /* Assets.xcassets */; };
+		C3C6C0F22792A19100E57C59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C6C0F12792A19100E57C59 /* Preview Assets.xcassets */; };
+		C3C6C0FC2792A19100E57C59 /* NightWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C6C0FB2792A19100E57C59 /* NightWatchTests.swift */; };
+		C3C6C1062792A19100E57C59 /* NightWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C6C1052792A19100E57C59 /* NightWatchUITests.swift */; };
+		C3C6C1082792A19100E57C59 /* NightWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C6C1072792A19100E57C59 /* NightWatchUITestsLaunchTests.swift */; };
+		C3CF68CC279422680036F4ED /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CF68CB279422680036F4ED /* TaskDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3C6C0F82792A19100E57C59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3C6C0DF2792A18F00E57C59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3C6C0E62792A18F00E57C59;
+			remoteInfo = NightWatch;
+		};
+		C3C6C1022792A19100E57C59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3C6C0DF2792A18F00E57C59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3C6C0E62792A18F00E57C59;
+			remoteInfo = NightWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C328BD702796AA9500BF00E4 /* NightWatchTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchTasks.swift; sourceTree = "<group>"; };
+		C33A221627953E7600BAD617 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C3C6C0E72792A18F00E57C59 /* NightWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C6C0EA2792A18F00E57C59 /* NightWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchApp.swift; sourceTree = "<group>"; };
+		C3C6C0EC2792A18F00E57C59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3C6C0EE2792A19100E57C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3C6C0F12792A19100E57C59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3C6C0F72792A19100E57C59 /* NightWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C6C0FB2792A19100E57C59 /* NightWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchTests.swift; sourceTree = "<group>"; };
+		C3C6C1012792A19100E57C59 /* NightWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C6C1052792A19100E57C59 /* NightWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchUITests.swift; sourceTree = "<group>"; };
+		C3C6C1072792A19100E57C59 /* NightWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3CF68CB279422680036F4ED /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3C6C0E42792A18F00E57C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C6C0F42792A19100E57C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C6C0FE2792A19100E57C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3C6C0DE2792A18F00E57C59 = {
+			isa = PBXGroup;
+			children = (
+				C3C6C0E92792A18F00E57C59 /* NightWatch */,
+				C3C6C0FA2792A19100E57C59 /* NightWatchTests */,
+				C3C6C1042792A19100E57C59 /* NightWatchUITests */,
+				C3C6C0E82792A18F00E57C59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3C6C0E82792A18F00E57C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3C6C0E72792A18F00E57C59 /* NightWatch.app */,
+				C3C6C0F72792A19100E57C59 /* NightWatchTests.xctest */,
+				C3C6C1012792A19100E57C59 /* NightWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3C6C0E92792A18F00E57C59 /* NightWatch */ = {
+			isa = PBXGroup;
+			children = (
+				C3C6C0EA2792A18F00E57C59 /* NightWatchApp.swift */,
+				C3C6C0EC2792A18F00E57C59 /* ContentView.swift */,
+				C3CF68CB279422680036F4ED /* TaskDetailView.swift */,
+				C33A221627953E7600BAD617 /* Task.swift */,
+				C328BD702796AA9500BF00E4 /* NightWatchTasks.swift */,
+				C3C6C0EE2792A19100E57C59 /* Assets.xcassets */,
+				C3C6C0F02792A19100E57C59 /* Preview Content */,
+			);
+			path = NightWatch;
+			sourceTree = "<group>";
+		};
+		C3C6C0F02792A19100E57C59 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C3C6C0F12792A19100E57C59 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3C6C0FA2792A19100E57C59 /* NightWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3C6C0FB2792A19100E57C59 /* NightWatchTests.swift */,
+			);
+			path = NightWatchTests;
+			sourceTree = "<group>";
+		};
+		C3C6C1042792A19100E57C59 /* NightWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3C6C1052792A19100E57C59 /* NightWatchUITests.swift */,
+				C3C6C1072792A19100E57C59 /* NightWatchUITestsLaunchTests.swift */,
+			);
+			path = NightWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3C6C0E62792A18F00E57C59 /* NightWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C6C10B2792A19100E57C59 /* Build configuration list for PBXNativeTarget "NightWatch" */;
+			buildPhases = (
+				C3C6C0E32792A18F00E57C59 /* Sources */,
+				C3C6C0E42792A18F00E57C59 /* Frameworks */,
+				C3C6C0E52792A18F00E57C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NightWatch;
+			productName = NightWatch;
+			productReference = C3C6C0E72792A18F00E57C59 /* NightWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3C6C0F62792A19100E57C59 /* NightWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C6C10E2792A19100E57C59 /* Build configuration list for PBXNativeTarget "NightWatchTests" */;
+			buildPhases = (
+				C3C6C0F32792A19100E57C59 /* Sources */,
+				C3C6C0F42792A19100E57C59 /* Frameworks */,
+				C3C6C0F52792A19100E57C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3C6C0F92792A19100E57C59 /* PBXTargetDependency */,
+			);
+			name = NightWatchTests;
+			productName = NightWatchTests;
+			productReference = C3C6C0F72792A19100E57C59 /* NightWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3C6C1002792A19100E57C59 /* NightWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C6C1112792A19100E57C59 /* Build configuration list for PBXNativeTarget "NightWatchUITests" */;
+			buildPhases = (
+				C3C6C0FD2792A19100E57C59 /* Sources */,
+				C3C6C0FE2792A19100E57C59 /* Frameworks */,
+				C3C6C0FF2792A19100E57C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3C6C1032792A19100E57C59 /* PBXTargetDependency */,
+			);
+			name = NightWatchUITests;
+			productName = NightWatchUITests;
+			productReference = C3C6C1012792A19100E57C59 /* NightWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3C6C0DF2792A18F00E57C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C3C6C0E62792A18F00E57C59 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C3C6C0F62792A19100E57C59 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C3C6C0E62792A18F00E57C59;
+					};
+					C3C6C1002792A19100E57C59 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C3C6C0E62792A18F00E57C59;
+					};
+				};
+			};
+			buildConfigurationList = C3C6C0E22792A18F00E57C59 /* Build configuration list for PBXProject "NightWatch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3C6C0DE2792A18F00E57C59;
+			productRefGroup = C3C6C0E82792A18F00E57C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3C6C0E62792A18F00E57C59 /* NightWatch */,
+				C3C6C0F62792A19100E57C59 /* NightWatchTests */,
+				C3C6C1002792A19100E57C59 /* NightWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3C6C0E52792A18F00E57C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C6C0F22792A19100E57C59 /* Preview Assets.xcassets in Resources */,
+				C3C6C0EF2792A19100E57C59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C6C0F52792A19100E57C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C6C0FF2792A19100E57C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3C6C0E32792A18F00E57C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33A221727953E7600BAD617 /* Task.swift in Sources */,
+				C3C6C0ED2792A18F00E57C59 /* ContentView.swift in Sources */,
+				C3C6C0EB2792A18F00E57C59 /* NightWatchApp.swift in Sources */,
+				C3CF68CC279422680036F4ED /* TaskDetailView.swift in Sources */,
+				C328BD712796AA9500BF00E4 /* NightWatchTasks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C6C0F32792A19100E57C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C6C0FC2792A19100E57C59 /* NightWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C6C0FD2792A19100E57C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C6C1062792A19100E57C59 /* NightWatchUITests.swift in Sources */,
+				C3C6C1082792A19100E57C59 /* NightWatchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3C6C0F92792A19100E57C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3C6C0E62792A18F00E57C59 /* NightWatch */;
+			targetProxy = C3C6C0F82792A19100E57C59 /* PBXContainerItemProxy */;
+		};
+		C3C6C1032792A19100E57C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3C6C0E62792A18F00E57C59 /* NightWatch */;
+			targetProxy = C3C6C1022792A19100E57C59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3C6C1092792A19100E57C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3C6C10A2792A19100E57C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3C6C10C2792A19100E57C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NightWatch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scorp.NightWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3C6C10D2792A19100E57C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NightWatch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scorp.NightWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3C6C10F2792A19100E57C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scorp.NightWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightWatch.app/NightWatch";
+			};
+			name = Debug;
+		};
+		C3C6C1102792A19100E57C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scorp.NightWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightWatch.app/NightWatch";
+			};
+			name = Release;
+		};
+		C3C6C1122792A19100E57C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scorp.NightWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NightWatch;
+			};
+			name = Debug;
+		};
+		C3C6C1132792A19100E57C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scorp.NightWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NightWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3C6C0E22792A18F00E57C59 /* Build configuration list for PBXProject "NightWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C6C1092792A19100E57C59 /* Debug */,
+				C3C6C10A2792A19100E57C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C6C10B2792A19100E57C59 /* Build configuration list for PBXNativeTarget "NightWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C6C10C2792A19100E57C59 /* Debug */,
+				C3C6C10D2792A19100E57C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C6C10E2792A19100E57C59 /* Build configuration list for PBXNativeTarget "NightWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C6C10F2792A19100E57C59 /* Debug */,
+				C3C6C1102792A19100E57C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C6C1112792A19100E57C59 /* Build configuration list for PBXNativeTarget "NightWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C6C1122792A19100E57C59 /* Debug */,
+				C3C6C1132792A19100E57C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3C6C0DF2792A18F00E57C59 /* Project object */;
+}
